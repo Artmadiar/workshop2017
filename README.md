@@ -1,9 +1,10 @@
 # workshop2017
 Sandbox of npm projects (examples, snippets)
 
-#Don't set at the config file the project name like the package name
+Don't set at the config file the project name like the package name
 
 To add new project to discovery:
+
 `mkdir package_name`
 
 `xcopy starterProject package_name`
