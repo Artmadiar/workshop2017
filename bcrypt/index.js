@@ -15,9 +15,7 @@ const myPromise = new Promise((resolve, reject) => {
       resolve(hash);
     });
   });
-});
-
-myPromise.then((success) => {
+}).then((success) => {
   // Load hash from your password DB
   bcrypt.compare(myPlaintextPassword, success, (err, res) => {
     console.log('pass to compare: ', myPlaintextPassword);
