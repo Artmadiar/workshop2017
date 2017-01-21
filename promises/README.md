@@ -1,6 +1,16 @@
-name of the package
+Promises
 ---
  
-Tested out package, what is this project for?
+Work with promises.
+
+Work by article:
+https://habrahabr.ru/company/mailru/blog/269465/
  
-The `somefunc()` method takes a variable and does something.
+function somePromiseAPI() {
+  return Promise.resolve()
+    .then(function () {
+      doSomethingThatMayThrow();
+      return 'foo';
+    })
+    .then(/* ... */);
+}
