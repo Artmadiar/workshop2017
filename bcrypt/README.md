@@ -12,3 +12,6 @@ hash(textPass, salt, callback(err, hash)) - create hash of password
 
 compare(pass, hash, callback(error, result)) - compare pass with hash. result = true/false
 `bcrypt.compare(myPlaintextPassword, success, (err, res) => {`
+
+TODO:
+write about same hash with save salt
